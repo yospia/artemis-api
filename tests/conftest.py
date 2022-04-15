@@ -1,8 +1,8 @@
 """Contem as Fixtures para os testes do Flask"""
-from flask import Flask
 import pytest
-from flask.testing import FlaskClient 
 from artemis_api.factory import create_app
+from flask import Flask
+from flask.testing import FlaskClient
 
 
 @pytest.fixture
