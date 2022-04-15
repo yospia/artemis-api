@@ -24,7 +24,7 @@ def client(app) -> FlaskClient:
 def app(request) -> Flask:
     """Instancia da API, configurada para testes"""
 
-    app = create_app('artemis_api.config.TestingConfig')
+    app = create_app('artemis_api.config.Testing')
 
     ctx = app.app_context()
     ctx.push()
